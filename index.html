@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"rel="stylesheet">
+    <title>Add Book Library</title>
+  </head>
+  <body>
+    <header>
+      <h1>Add Book System - Library</h1>
+    </header>
+    <div class="new-book">
+      <button class="new-book-btn">+</button>
+    </div>
+    <div id="container">
+      <main>
+        <div class="grid-container">
+          <h2 class="nothing-message">Nothing here. Add a book.</h2>
+          <div class="card-grid"></div>
+        </div>
+        <div class="collection">
+          <h4 class="book-collection">Collection: <span></span></h4>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <a href="">
+        <i class="fab fa-github fa-2x ft-icon"></i>
+      </a>
+    </footer>
+    <div class="modal">
+      <form id="book-form">
+        <h2 class="form-title">Add book</h2>
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <div class="checkbox">
+          <label id="completed">Completed?</label><input type="checkbox" id="read">
+        </div>
+        <div class="card-buttons">
+          <button type="submit" class="submit">Add</button>
+          <span class="close">Cancel</span>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
