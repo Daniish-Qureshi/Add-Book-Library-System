@@ -10,7 +10,7 @@ The **Add Book Library System** is a web application designed to manage a librar
 
 ## Live Project Demo
 
-Explore the live demo of the project [Click](https://your-live-demo-link.com).
+Explore the live demo of the project [Click](https://daniish-qureshi.github.io/Add-Book-Library-System/).
 
 ## Technologies Used
 
