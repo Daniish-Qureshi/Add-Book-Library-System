@@ -385,6 +385,17 @@
     /* margin-left: 20px; */
     height: 35px;
   }
+
+  footer h3{
+    text-align: center;
+    justify-content: space-between;
+    color: #eff0fb;
+    margin-left: 40%;
+  }
+
+  footer span{
+    color: #00cccc;
+  }
   
   a {
     margin: 0 10px;
